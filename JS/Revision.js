@@ -1,9 +1,11 @@
-// Palindrome ,Reverse a string, check prime no., factorial , 2nd smallest elemnt, sum of 2 is equal to target,
-//  move all zeros to end, 2nd largest no., reverse an array, smallest no. in an array
+// Palindrome ,Reverse a string, check prime no., factorial , 2nd smallest elemnt,
+//  sum of 2 is equal to target,move all zeros to end, 2nd largest no., reverse an array, smallest no. in an array,
+// count odd an even number in an array
 
 
 
-
+ day-1
+ 
 // Palindrome
 let words='madam'
 let isPalindrome=true
@@ -17,7 +19,6 @@ for(let i=0;i<words.length/2;i++){
 console.log(isPalindrome?'Palindrome':'Not a palindrome')
 
 
-
 // Reverse a string
 let str='hello'
 let reversed=''
@@ -27,7 +28,6 @@ for(let i=str.length-1;i>=0;i--){
 }
 
 console.log(reversed)
-
 
 
 // check Prime Number
@@ -71,6 +71,14 @@ for(let i=0;i<small.length;i++){
 console.log(second)
 
 
+
+
+
+
+
+
+
+day-3
 
 // sum of 2 is equal to target
 let num=[1,2,3,4,5]
@@ -140,4 +148,9 @@ for(let i=0;i<smal.length;i++){
 console.log(min)
 
 
-// 
+
+
+
+
+// day-6
+// count odd and even no. in an array
