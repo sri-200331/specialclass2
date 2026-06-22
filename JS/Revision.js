@@ -1,10 +1,13 @@
 // Palindrome ,Reverse a string, check prime no., factorial , 2nd smallest elemnt,
 //  sum of 2 is equal to target,move all zeros to end, 2nd largest no., reverse an array, smallest no. in an array,
-// count odd an even number in an array
+// count odd an even number in an array,  sum of all elements in array, Swap two variables without a third variable 
 
 
 
- day-1
+
+
+
+//  day-1
  
 // Palindrome
 let words='madam'
@@ -20,6 +23,7 @@ console.log(isPalindrome?'Palindrome':'Not a palindrome')
 
 
 // Reverse a string
+
 let str='hello'
 let reversed=''
 
@@ -78,7 +82,7 @@ console.log(second)
 
 
 
-day-3
+// day-3
 
 // sum of 2 is equal to target
 let num=[1,2,3,4,5]
@@ -154,3 +158,38 @@ console.log(min)
 
 // day-6
 // count odd and even no. in an array
+let arr2=[1,2,3,4,5,6,7,8,9]
+let countven=0
+let countodd=0
+
+for(let i=0;i<arr2.length;i++){
+    if(arr2[i]%2===0){
+        countven++
+    }else{
+        countodd++
+    }
+}
+console.log(countven)
+console.log(countodd)
+
+
+// sum of all elements in array
+let arry=[1,2,3,4,5]
+let result=0
+for(let i=0;i<arry.length;i++){
+    result+=arry[i]
+}
+console.log(result)
+
+
+// Swap two variables without a third variable 
+let a=5
+let b=6
+
+a=a+b
+b=a-b
+a=a-b
+console.log(a,b)
+
+
+
