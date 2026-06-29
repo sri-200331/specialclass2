@@ -1,5 +1,6 @@
 // Frequency of each element, remove duplicates from an array (no Set),  Find the missing number in a sequence,
-//   Find the intersection of two arrays, Find the union of two arrays (no duplicates) ,Rotate array left by one position 
+//   Find the intersection of two arrays, Find the union of two arrays (no duplicates) ,Rotate array left by one position, .
+//  Rotate array right by one position  
 
 
  
@@ -110,3 +111,14 @@ for(let i=0;i<array.length-1;i++){
 }
 array[array.length-1]=first
 console.log(array)
+
+
+// . Rotate array right by one position 
+let arr2=[1,2,3,4,5]
+let last=arr2[arr2.length-1]
+
+for(let i=arr2.length-1;i>0;i--){
+    arr2[i]=arr2[i-1]
+}
+arr2[0]=last
+console.log(arr2)
